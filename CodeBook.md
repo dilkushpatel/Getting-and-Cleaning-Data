@@ -82,6 +82,12 @@
 - fBodyBodyGyroMag-standard deviation
 - fBodyBodyGyroJerkMag-standard deviation
 
+#Feature Details:
+- Time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+- The 'f' to indicate frequency domain signals
+
+
 #Data
 - File contains average of mean and standard deviation data for each subject by each activity
 
